@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Don't forget to connect the CSS file -->
-  <title>Library</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Recipe Library</title>
 </head>
+
 <body>
-  <h1>Library</h1>
-  <!-- Don't forget to connect the JavaScript file -->
+  <h1>Recipe Library</h1>
+
+  <div class="controls">
+    <!-- Filter by cuisine type -->
+    <label for="cuisine-filter">Filter by cuisine:</label>
+    <select id="cuisine-filter">
+      <option value="all">All</option>
+    </select>
+
+    <!-- Sorting by cooking time -->
+    <label for="sort-time">Sort by cooking time:</label>
+    <select id="sort-time">
+      <option value="default">Default</option>
+      <option value="asc">Shortest -> Longest</option>
+      <option value="desc">Longest -> Shortest</option>
+    </select>
+
+    <!-- Button to select random recipe -->
+    <button id="random-recipe">Random Recipe</button>
+
+  </div>
+  <!-- Recipe list -->
+  <div id="recipe-list">
+
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>

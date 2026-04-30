@@ -1,10 +1,20 @@
-# Library
+# Recipe Library
 
-Replace this readme with your own information about the project. You can include things like:
+Project description
+This project is a simple recipe library built with HTML, CSS and JavaScript. The goal of the assignment was to practice working with arrays of data, DOM manipulation, event handling and basic logic such as filtering, sorting and selecting random items.
+When the page loads, all recipes are displayed as cards containing information such as name, cooking time, source and image.
 
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
+Approach and implementation
+I approached the task by first focusing on functionality before design. I started by rendering the recipe data dynamically to the page using JavaScript and then added features step by step:
+
+Filtering recipes by cuisine type
+Sorting recipes by cooking time
+Selecting and displaying a random recipe
+
+The JavaScript logic is structured with clear sections for elements, data, functions, events and initialization to keep the code easy to read and maintain. Basic CSS was used to create a clean and consistent layout without overcomplicating the design.
+
+Future improvements
+If I had more time, I would consider adding more advanced filtering options, improving accessibility, and enhancing the visual design with animations or transitions. Another possible improvement would be to combine filtering and sorting more seamlessly.
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+
